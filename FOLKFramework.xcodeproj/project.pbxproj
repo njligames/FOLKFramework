@@ -23,6 +23,8 @@
 		C1DDBE5027ACC23200D8B897 /* FOLKUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDBE4927ACC23200D8B897 /* FOLKUtility.swift */; };
 		C1DDBE5127ACC23200D8B897 /* FOLKExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDBE4A27ACC23200D8B897 /* FOLKExplorerViewController.swift */; };
 		C1DDBE5227ACC23200D8B897 /* FOLKExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDBE4A27ACC23200D8B897 /* FOLKExplorerViewController.swift */; };
+		C1E59BD727AF2E770018DE03 /* UIViewController+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E59BD627AF2E770018DE03 /* UIViewController+Shake.swift */; };
+		C1E59BD827AF2E770018DE03 /* UIViewController+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E59BD627AF2E770018DE03 /* UIViewController+Shake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		C1DDBE4827ACC23200D8B897 /* FOLKManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FOLKManager.swift; sourceTree = "<group>"; };
 		C1DDBE4927ACC23200D8B897 /* FOLKUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FOLKUtility.swift; sourceTree = "<group>"; };
 		C1DDBE4A27ACC23200D8B897 /* FOLKExplorerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FOLKExplorerViewController.swift; sourceTree = "<group>"; };
+		C1E59BD627AF2E770018DE03 /* UIViewController+Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Shake.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,7 @@
 				C1DDBE4927ACC23200D8B897 /* FOLKUtility.swift */,
 				C1DDBE4727ACC23200D8B897 /* FOLKWindow.swift */,
 				C179ABC027AD775F00A8B594 /* UIViewController+Toast.swift */,
+				C1E59BD627AF2E770018DE03 /* UIViewController+Shake.swift */,
 				C179ABC327AD7F6D00A8B594 /* UIWindow+Traverse.swift */,
 				C1DDBE3027ACC1F200D8B897 /* FOLKFramework.h */,
 				C1DDBE3127ACC1F200D8B897 /* FOLKFramework.docc */,
@@ -221,6 +225,7 @@
 				C1DDBE4F27ACC23200D8B897 /* FOLKUtility.swift in Sources */,
 				C1DDBE3227ACC1F200D8B897 /* FOLKFramework.docc in Sources */,
 				C1DDBE4B27ACC23200D8B897 /* FOLKWindow.swift in Sources */,
+				C1E59BD727AF2E770018DE03 /* UIViewController+Shake.swift in Sources */,
 				C1DDBE4D27ACC23200D8B897 /* FOLKManager.swift in Sources */,
 				C179ABC127AD775F00A8B594 /* UIViewController+Toast.swift in Sources */,
 				C179ABC427AD7F6D00A8B594 /* UIWindow+Traverse.swift in Sources */,
@@ -235,6 +240,7 @@
 				C1DDBE5027ACC23200D8B897 /* FOLKUtility.swift in Sources */,
 				C1DDBE3D27ACC1F200D8B897 /* FOLKFrameworkTests.swift in Sources */,
 				C1DDBE4C27ACC23200D8B897 /* FOLKWindow.swift in Sources */,
+				C1E59BD827AF2E770018DE03 /* UIViewController+Shake.swift in Sources */,
 				C1DDBE4E27ACC23200D8B897 /* FOLKManager.swift in Sources */,
 				C179ABC227AD775F00A8B594 /* UIViewController+Toast.swift in Sources */,
 				C179ABC527AD7F6D00A8B594 /* UIWindow+Traverse.swift in Sources */,
