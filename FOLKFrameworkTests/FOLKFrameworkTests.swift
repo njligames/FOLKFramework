@@ -32,5 +32,28 @@ class FOLKFrameworkTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testCrowdin() throws {
+        let crowdin:CrowdInKeyManager = CrowdInKeyManager()
+        let keys:[String] = ["key1", "key2", "key3"]
+        let values:[String] = ["jim", "Jim"]
+        
+        crowdin.add(values[0], keys[0])
+        crowdin.add(values[1], keys[1])
+        
+        // duplicate crowdin value, different crowdin key
+        crowdin.add(values[1], keys[2])
+        
+        // duplicate crowdin value, duplicate crowdin key
+        crowdin.add(values[1], keys[2])
+        
+        let v0 = crowdin.get(values[0])
+        let v1 = crowdin.get(values[1])
+        
+        XCTAssertEqual(v0.count, 1, "Not adding crowdin kv correctly.")
+        XCTAssertEqual(v1.count, 2, "Should only add a crowdin key if the key doesn't already exist.")
+        
+        
+    }
 
 }

@@ -22,6 +22,8 @@ public class FOLKManager : FOLKExplorerViewControllerDelegate, FOLKWindowEventDe
     private var folkExplorerWindow: FOLKWindow?
     private var folkExplorerViewController: FOLKExplorerViewController?
     
+    public var crowdinKeyManager: CrowdInKeyManager = CrowdInKeyManager()
+    
     public static let shared = FOLKManager()
     
     private init(){}
