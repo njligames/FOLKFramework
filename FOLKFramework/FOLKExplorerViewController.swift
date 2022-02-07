@@ -42,6 +42,8 @@ class FOLKExplorerViewController : UIViewController, FOLKHierarchyDelegate, UIAd
             ret = textView.text
         } else if let textField = view as? UITextField {
             ret = textField.text ?? ""
+        } else if let tabbaritem = view as? UITabBarItem {
+            ret = tabbaritem.title
         }
         return ret
     }
