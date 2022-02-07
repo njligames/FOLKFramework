@@ -49,7 +49,7 @@ class FOLKExplorerViewController : UIViewController, FOLKHierarchyDelegate, UIAd
     private func reverseLookup(_ key: String) -> String {
         let val = FOLKManager.shared.crowdinKeyManager.get(key).joined(separator: ", ")
         if "" == val {
-            return key
+            return key + " (NOT CROWDIN)"
         }
         return val
     }
