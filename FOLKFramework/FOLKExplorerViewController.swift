@@ -47,7 +47,11 @@ class FOLKExplorerViewController : UIViewController, FOLKHierarchyDelegate, UIAd
     }
     
     private func reverseLookup(_ key: String) -> String {
-        return key
+        let val = FOLKManager.shared.crowdinKeyManager.get(key).joined(separator: ", ")
+        if "" == val {
+            return key
+        }
+        return val
     }
     
     private func updateOutlineViewsForSelectionPoint(_ selectionPointInWindow: CGPoint) {
